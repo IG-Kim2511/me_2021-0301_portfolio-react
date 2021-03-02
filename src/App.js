@@ -14,7 +14,7 @@
 import Navbar from './components/Navbar'
 import Aboutme from './components/Aboutme'
 import Contact from './components/Contact'
-import Language from './components/Language'
+import Language from './components/language/Language'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 
@@ -26,7 +26,7 @@ function App() {
        
 
         <Navbar></Navbar>
-        
+
         <Aboutme/>
         <Language></Language>
         <Skills></Skills>        

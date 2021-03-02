@@ -1,6 +1,9 @@
 
+$main-color: #0eae44;
+
 #navbar{
     position: fixed;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +14,7 @@
     padding: 16px;    
     z-index: 1;
 
-    background-color: yellow;
+    background-color: $main-color;
 
     .navbar_menu{
         display: flex;
