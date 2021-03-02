@@ -49,6 +49,10 @@ li {
   transition: transform 0.5s;
 }
 
+.text-align{
+  text-align: center;
+}
+
 /* 🦄ready- Global */
 
 :root {

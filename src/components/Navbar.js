@@ -4,24 +4,9 @@ import { Icon } from 'semantic-ui-react'
 
 import '../css/style.scss';
 
-// import styled from 'styled-components'
+// 🍄plan : router
 
-// const Nav = styled.div`
-// position:fixed;
-// bottom:0;
-// left: 25%;
-
-// display:flex;
-// width: 560px;
-// height: 120px;
-
-// background-color: #bdbdbd;
-// transform: traslateX(-50%);
-// border-top-left-radius : 25px;
-// border-top-right-radius : 25px;
-// `
-
-const Navbar = () => {
+function Navbar() {
     return (
         <nav id="navbar">
             <div className="navbar_logo">    
@@ -39,3 +24,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
