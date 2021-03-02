@@ -3,7 +3,7 @@ $main-color: #0eae44;
 
 #navbar{
     position: fixed;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,5 +29,24 @@ $main-color: #0eae44;
     }
 }
 
+.about_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .skill_icon{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+      
+        border: 1px solid $main-color;
+        border-radius: 50%;
+        color: $main-color;
+        font-size: 40px;
+      
+        margin: auto;
+        margin-bottom: 16px;
+    }
+}
 
 
