@@ -1,4 +1,6 @@
 $main-color: #0eae44;
+$white-color: #eeeeee;
+$black-color: #000000;
 
 /* 🦄navbar */
 
@@ -10,12 +12,12 @@ $main-color: #0eae44;
   align-items: center;
 
   width: 100%;
+  padding: 0.1 rem;
+
   background-color: transparent;
-
-  padding: 16px;
-  z-index: 1;
-
   background-color: $main-color;
+
+  z-index: 1;
 
   .navbar_menu {
     display: flex;
@@ -27,7 +29,32 @@ $main-color: #0eae44;
     margin: 0 4px;
     cursor: pointer;
     border: 1px solid transparent;
+    border-radius: .5rem;
+
+    transition: all .3s;
+
+    &:hover{
+        border-color: $white-color;
+        transform: scale(1.1);
+    }
   }
+}
+
+/* 🦄about me */
+#aboutme{
+    padding: 6rem 3rem 3rem 3rem;
+    
+    .avatar{
+        width: 50%;
+        border-radius: .5rem;
+
+    }
+
+
+}
+#language{
+    padding: 3rem;
+
 }
 
 /* 🦄skills */
@@ -60,34 +87,32 @@ $main-color: #0eae44;
 }
 
 /* 🦄projects */
-#projects{
-    img{
-        width: 20%;
-    }
-    .project_item{
-        display: flex;
-        flex-direction: row;
-    }
+#projects {
+  img {
+    width: 20%;
+  }
+  .project_item {
+    display: flex;
+    flex-direction: row;
+  }
 }
-
 
 /* 🦄contact */
 
-.contact_links{
-    a{
-        width: 80px;
-        height: 80px;
-    
-        color: $main-color;
-        font-size: 40px;    
-    }
+.contact_links {
+  a {
+    width: 80px;
+    height: 80px;
 
-    .icon{
-        transition: all 0.3s;
+    color: $main-color;
+    font-size: 40px;
+  }
 
-        &:hover {      
-          transform: scale(1.2);
-        }
+  .icon {
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
     }
+  }
 }
-

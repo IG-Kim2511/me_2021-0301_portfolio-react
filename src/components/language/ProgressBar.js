@@ -4,11 +4,12 @@ import { Progress } from 'semantic-ui-react'
 const ProgressBar = () => (
   <div>
     <div>
-      english : fluent enough
+    <h4>english : fluent enough</h4>
+      
       <Progress percent={65} color='green' />
     </div>
     <div>
-      korean : native
+     <h4>korean : native</h4>
       <Progress percent={100} color='green' /> 
     </div>
   </div>

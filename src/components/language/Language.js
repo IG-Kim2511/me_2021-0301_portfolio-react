@@ -4,7 +4,7 @@ import ProgressBar from './ProgressBar'
 
 const Language = () => {
     return (
-        <div className='language'>
+        <div id='language'>
             <h1>Language</h1>
         
             <ProgressBar></ProgressBar>
