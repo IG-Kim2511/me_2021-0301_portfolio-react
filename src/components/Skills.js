@@ -13,6 +13,7 @@ const Skills = () => {
                     <Icon disabled name='html5' className="skill_icon"/>
                     <p>html</p>
                 </div>
+                
                 <div>
                     <Icon disabled name='css3' />
                     <p>css3</p>

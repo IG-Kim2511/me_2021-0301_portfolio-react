@@ -58,7 +58,9 @@ $black-color: #000000;
 }
 
 /* 🦄skills */
-
+#skills{
+    padding: 3rem;
+}
 .about_skills {
   display: flex;
   flex-wrap: wrap;
@@ -88,6 +90,7 @@ $black-color: #000000;
 
 /* 🦄projects */
 #projects {
+    padding: 3rem;
   img {
     width: 20%;
   }
@@ -98,7 +101,9 @@ $black-color: #000000;
 }
 
 /* 🦄contact */
-
+#contact{
+    padding: 3rem;
+}
 .contact_links {
   a {
     width: 80px;

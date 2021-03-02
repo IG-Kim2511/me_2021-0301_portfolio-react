@@ -6,7 +6,7 @@ import '../App.css';
 
 const Contact = () => {
     return (
-        <div>        
+        <div id="contact">        
             <h3>Let's talk</h3>                    
             <h3>iikim2511@gmail.com</h3>
 
