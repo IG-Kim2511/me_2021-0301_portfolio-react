@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
 
+  
 
 import '../css/style.scss';
 
@@ -16,10 +17,13 @@ function Navbar() {
             </div>
 
             <ul className='navbar_menu'>
+
                 <li className='navbar_menu_item'>About me</li>              
                 <li className='navbar_menu_item'>Projects</li>
                 <li className='navbar_menu_item'>Contact</li>
             </ul>
+
+        
         </nav>
     )
 }

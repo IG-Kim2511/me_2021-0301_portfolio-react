@@ -6,7 +6,7 @@ import '../App.css';
 
 const Contact = () => {
     return (
-        <div id="contact">        
+        <section id="contact">        
             <h3>Let's talk</h3>                    
             <h3>iikim2511@gmail.com</h3>
 
@@ -17,7 +17,7 @@ const Contact = () => {
 
                 {/*     <a href="https://github.com/IG-Kim2511" target="_blank"><Icon name='mail' className="icon"/></a> */}         
             </div> 
-        </div>
+        </section>
     )
 }
 
