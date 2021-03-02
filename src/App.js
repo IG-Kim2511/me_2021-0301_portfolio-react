@@ -34,12 +34,7 @@ function App() {
         <Contact></Contact>
 
         <div>
-          <Icon disabled name='star' />
-
-          {/* IG Kim */}
-          <Icon disabled name='mail' />
-          <Icon disabled name='linkedin' />
-          <Icon disabled name='github' />
+       
         </div>
 
     </div>

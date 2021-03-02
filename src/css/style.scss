@@ -65,3 +65,25 @@ $main-color: #0eae44;
         width: 20%;
     }
 }
+
+
+/* 🦄contact */
+
+.contact_links{
+    a{
+        width: 80px;
+        height: 80px;
+    
+        color: $main-color;
+        font-size: 40px;    
+    }
+    
+    .icon{
+        transition: all 0.3s;
+
+        &:hover {      
+          transform: scale(1.2);
+        }
+    }
+}
+

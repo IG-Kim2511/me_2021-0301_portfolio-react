@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'semantic-ui-react'
 
 import cars from '../../img/projects/p-cars.jpg';
 import bbc from '../../img/projects/p-bbc.jpg';
@@ -13,12 +14,15 @@ const Projects = () => {
         <div id="projects">
             <h1>Projects</h1>
             <div className="container">
-             <div className="project_item">            
-             <img src={javascript_portfolio}  />
-             <div className="intro">
-             <h4>skills</h4>
-             <p>html, css, javascript</p>
-             </div>
+                <div className="project_item">            
+                    <img src={javascript_portfolio}  />                   
+                </div>
+                <div className="project_description">
+                    <h4>skills</h4>
+                    <p>html, css, javascript</p>
+                    <Button color='green' href="https://github.com/IG-Kim2511" target="_blank">github</Button>
+                    <Button color='green' href="https://github.com/IG-Kim2511" target="_blank">web site</Button>
+                </div>
              </div>
              
              <img src={Sign_Up_Form} 
@@ -28,7 +32,7 @@ const Projects = () => {
              <img src={shop}  />
              <img src={road}  />                
              <img src={cars}  />            
-            </div>
+          
         </div>
     )
 }
