@@ -7,8 +7,9 @@
  {/* components */}
  import './App.css';
 
-
-import Aboutme from './components/Aboutme'
+ 
+ import Menubar from './components/Menubar'
+ import Aboutme from './components/Aboutme'
 import Foot from './components/Foot'
 import Language from './components/Language'
 import Projects from './components/Projects'
@@ -24,6 +25,7 @@ function App() {
         <Icon disabled name='linkedin' />
         <Icon disabled name='github' />
 
+        <Menubar></Menubar>
         <Aboutme/>
         
         <Projects></Projects>
