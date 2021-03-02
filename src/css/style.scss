@@ -115,6 +115,7 @@ $black-color: #000000;
 
     &:hover {
       transform: scale(1.05);
+      background-color: $white-color;
     }
     img {
       margin: auto 5rem;

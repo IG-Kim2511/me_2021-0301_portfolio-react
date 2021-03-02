@@ -6,6 +6,7 @@ import '../css/style.scss';
 
 // 🍄plan : router
 
+
 function Navbar() {
     return (
         <nav id="navbar">
