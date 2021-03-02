@@ -1,12 +1,17 @@
 import React from 'react'
+import { Icon } from 'semantic-ui-react'
 
-// import '../scss/style.scss'
+import '../css/style.scss'
 
 
 const MenuButton = () => {
     return (
-        <div>
-        MenuButton
+        <div className="MenuButton">
+        <Icon disabled name='user' />
+        <Icon disabled name='user' />
+        <Icon disabled name='user' />
+        <Icon disabled name='user' />
+
         </div>
     )
 }

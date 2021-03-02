@@ -3,6 +3,8 @@
  {/* library */}
  import 'semantic-ui-css/semantic.min.css'
  import { Icon } from 'semantic-ui-react'
+  {/* <Icon disabled name='star' /> */}
+
 
  {/* components */}
  import './App.css';
@@ -10,7 +12,7 @@
  
  import Menubar from './components/Menubar'
  import Aboutme from './components/Aboutme'
-import Foot from './components/Foot'
+import Contact from './components/Contact'
 import Language from './components/Language'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
@@ -20,7 +22,10 @@ function App() {
   return (
     <div className="App">
       <div>menu</div>
-        aaaaaaaaaaaaaaaa
+
+      <Icon disabled name='star' />
+
+        IG Kim
         <Icon disabled name='mail' />
         <Icon disabled name='linkedin' />
         <Icon disabled name='github' />
@@ -34,7 +39,7 @@ function App() {
 
         <Skills></Skills>
 
-        <Foot></Foot>
+        <Contact></Contact>
 
     </div>
   );
