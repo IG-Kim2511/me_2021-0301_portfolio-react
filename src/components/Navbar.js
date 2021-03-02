@@ -30,11 +30,9 @@ const Navbar = () => {
             </div>
 
             <ul className='navbar_menu'>
-                <li className='navbar_menu_item'>about me</li>
-                <li className='navbar_menu_item'>language</li>
-                <li className='navbar_menu_item'>skills</li>
-                <li className='navbar_menu_item'>project</li>
-                <li className='navbar_menu_item'>contact</li>
+                <li className='navbar_menu_item'>About me</li>              
+                <li className='navbar_menu_item'>Projects</li>
+                <li className='navbar_menu_item'>Contact</li>
             </ul>
         </nav>
     )

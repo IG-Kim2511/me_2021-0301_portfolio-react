@@ -13,15 +13,15 @@ const Projects = () => {
     return (
         <div id="projects">
             <h1>Projects</h1>
-            <div className="container">
+            <div className="project_container">
                 <div className="project_item">            
-                    <img src={javascript_portfolio}  />                   
-                </div>
-                <div className="project_description">
-                    <h4>skills</h4>
-                    <p>html, css, javascript</p>
-                    <Button color='green' href="https://github.com/IG-Kim2511" target="_blank">github</Button>
-                    <Button color='green' href="https://github.com/IG-Kim2511" target="_blank">web site</Button>
+                    <img src={javascript_portfolio}  /> 
+                    <div className="project_description">
+                        <h4>skills</h4>
+                        <p>html, css, javascript</p>
+                        <Button color='green' href="https://github.com/IG-Kim2511" target="_blank">github</Button>
+                        <Button color='green' href="https://github.com/IG-Kim2511" target="_blank">web site</Button>
+                    </div>
                 </div>
              </div>
              
