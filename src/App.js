@@ -8,10 +8,11 @@
 
  {/* components */}
  import './App.css';
+ import './css/style.scss';
 
  
- import Menubar from './components/Menubar'
- import Aboutme from './components/Aboutme'
+import Navbar from './components/Navbar'
+import Aboutme from './components/Aboutme'
 import Contact from './components/Contact'
 import Language from './components/Language'
 import Projects from './components/Projects'
@@ -20,26 +21,26 @@ import Skills from './components/Skills'
 
 function App() {
   return (
-    <div className="App">
-      <div>menu</div>
+    <div className="App"> 
 
-      <Icon disabled name='star' />
+       
 
-        IG Kim
-        <Icon disabled name='mail' />
-        <Icon disabled name='linkedin' />
-        <Icon disabled name='github' />
-
-        <Menubar></Menubar>
-        <Aboutme/>
+        <Navbar></Navbar>
         
-        <Projects></Projects>
-
+        <Aboutme/>
         <Language></Language>
-
-        <Skills></Skills>
-
+        <Skills></Skills>        
+        <Projects></Projects>
         <Contact></Contact>
+
+        <div>
+          <Icon disabled name='star' />
+
+          {/* IG Kim */}
+          <Icon disabled name='mail' />
+          <Icon disabled name='linkedin' />
+          <Icon disabled name='github' />
+        </div>
 
     </div>
   );
