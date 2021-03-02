@@ -64,7 +64,9 @@ $black-color: #000000;
 .about_skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
+
+  text-align: center;
 
   .skill_icon {
     width: 80px;
