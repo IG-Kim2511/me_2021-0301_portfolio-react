@@ -71,7 +71,7 @@ const projectItem = [
                     <div className="project_description">
                         <h5>{projectItem[0].name} </h5>
                         <h5>skills: React, SCSS</h5>
-                        <Button color='green' href={projectItem[0].github} target="_blank">github</Button>
+                        <Button color='green' href={projectItem[0].github} target="_blank" className="project_btn">github</Button>
                         <Button color='green' href={projectItem[0].web_site} target="_blank">web site</Button>
                     </div>
                 </div>
@@ -100,14 +100,14 @@ const projectItem = [
              
              <div className="project_container_line">
                 <h3>-----Projects by tutorial video.-----</h3>
-                <div>I did it for practice</div>
+                <h4>I did it for practice CSS</h4>
              </div>
 
              <div className="project_container">
                 <div className="project_item">            
                 <img src={Sign_Up_Form}/>
                     <div className="project_description">
-                    <h5>{projectItem[3].name} </h5>
+                      <h5>{projectItem[3].name} </h5>
                         <h5>skills: html, css, javascript</h5>
                         <Button color='green' href={projectItem[3].github} target="_blank">github</Button>
                         <Button color='green' href={projectItem[3].web_site} target="_blank">web site</Button>

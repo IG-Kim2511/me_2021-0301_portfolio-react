@@ -99,7 +99,7 @@ $black-color: #000000;
   }
 
   img {
-    width: 20%;
+    width: 40%;
   }
   .project_item {
     display: flex;
@@ -120,6 +120,7 @@ $black-color: #000000;
       margin: auto 5rem;
     }
   }
+
 }
 
 /* 🦄contact */
@@ -143,3 +144,28 @@ $black-color: #000000;
     }
   }
 }
+
+/* @ 576px */
+@media (max-width: 576px) {
+    html {
+      font-size: 55%;
+    }
+    #skills {    
+        .skill_icon {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 25px;
+
+      }
+    }
+    
+    .project_description{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;     
+       
+      }
+  }
+
+  
