@@ -1,7 +1,8 @@
 import React from 'react'
+import { Button } from 'semantic-ui-react'
+
 
 import avatar2 from '../img/avatar2.jpg';
-
 
 
 const Aboutme = () => {
@@ -24,9 +25,9 @@ const Aboutme = () => {
                 <br></br>
           
             </div>
-            <a  class="my_github" href="https://github.com/IG-Kim2511" target="_blank">my github</a>
+            <Button color='green'  class="my_github" href="https://github.com/IG-Kim2511" target="_blank">my github</Button>
 
-            <a  class="my_github" href="https://www.linkedin.com/in/ig-in-gyum-kim-17456219b/" target="_blank">linkedin</a>
+            <Button color='green'  class="my_github" href="https://www.linkedin.com/in/ig-in-gyum-kim-17456219b/" target="_blank">linkedin</Button>
             
 
         </div>

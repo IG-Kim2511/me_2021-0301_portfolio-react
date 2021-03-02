@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
 
+
 import '../css/style.scss';
 
 // import styled from 'styled-components'
