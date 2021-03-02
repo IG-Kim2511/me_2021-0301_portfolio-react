@@ -6,6 +6,7 @@
 html {
   font-size: 100%;
   text-align: center;
+  background: url(./img/back-dot.png);
 }
 
 a{
