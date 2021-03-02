@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'semantic-ui-react'
 
-
 import avatar2 from '../img/avatar2.jpg';
 
 
