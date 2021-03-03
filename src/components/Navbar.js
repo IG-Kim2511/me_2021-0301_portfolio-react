@@ -12,13 +12,13 @@ function Navbar() {
         <nav id="navbar">
             <div className="navbar_logo">    
                 <Icon  name='star' />
-                <span>IG Kim</span> 
+                <a href="#app_aboutme">IG Kim</a> 
             </div>
 
             <ul className='navbar_menu'>
-                <li className='navbar_menu_item'>About me</li>              
-                <li className='navbar_menu_item'>Projects</li>
-                <li className='navbar_menu_item'>Contact</li>
+                <a href="#app_aboutme" className='navbar_menu_item'>About me</a>              
+                <a href="#app_projects" className='navbar_menu_item'>Projects</a>
+                <a href="#app_contact" className='navbar_menu_item'> Contact</a>
             </ul>
         </nav>
     )

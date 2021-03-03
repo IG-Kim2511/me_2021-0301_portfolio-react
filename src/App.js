@@ -27,15 +27,19 @@ function App() {
 
         <Navbar></Navbar>
 
-        <Aboutme/>
+        <div id="app_aboutme">
+          <Aboutme/>
+        </div>
         <Language></Language>
         <Skills></Skills>        
-        <Projects></Projects>
-        <Contact></Contact>
-
-        <div>
-       
+        <div id="app_projects">
+          <Projects></Projects>
         </div>
+
+        <div id="app_contact">
+         <Contact></Contact>
+        </div>
+       
 
     </div>
   );
