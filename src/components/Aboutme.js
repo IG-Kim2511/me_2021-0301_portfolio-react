@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { Button } from 'semantic-ui-react'
 
-
 import avatar2 from '../img/avatar2.jpg';
-
 
 const Aboutme = () => {
  
-
     return (
         <div id='aboutme'>
         
@@ -35,6 +32,6 @@ const Aboutme = () => {
 
         </div>
     )
-    }
+}
 
 export default Aboutme

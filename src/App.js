@@ -23,15 +23,15 @@ function App() {
   return (
     <div className="App"> 
 
-       
-
         <Navbar></Navbar>
 
         <div id="app_aboutme">
           <Aboutme/>
         </div>
+
         <Language></Language>
-        <Skills></Skills>        
+        <Skills></Skills>     
+           
         <div id="app_projects">
           <Projects></Projects>
         </div>

@@ -39,9 +39,11 @@ $black-color: #000000;
     }
   }
 
-  a{
+  a,
+  .navbar_icon   {
       color: $white-color;
   }
+ 
 }
 
 /* 🦄about me */
@@ -114,8 +116,13 @@ $black-color: #000000;
     padding: 1rem;
     // border: 1px solid $main-color;
     border-radius: 0.5rem;
+    
+    img{
+        box-shadow: .2rem .2rem .2rem $white-color;        
+    }
 
     transition: all 0.3s;
+
 
     &:hover {
       transform: scale(1.05);

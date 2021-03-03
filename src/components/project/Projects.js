@@ -45,7 +45,7 @@ const projectItem = [
      github: "https://github.com/IG-Kim2511/Sign-In-Sign-Up-Form-HCJ-2021-0209-P",
      web_site: "https://ig-kim2511.github.io/Sign-In-Sign-Up-Form-HCJ-2021-0209-P/"  
     },
-    {id:4,
+ {/*    {id:4,
     name:"road" ,
      img:'react_portfolio',
      skills: "html, css, javascript",
@@ -58,7 +58,7 @@ const projectItem = [
      skills: "html, css, javascript",
      github: "https://github.com/IG-Kim2511/Cars-HCJ-2021-0206-P",
      web_site: "https://ig-kim2511.github.io/Cars-HCJ-2021-0206-P/"  
-    },
+    }, */}
 ]
 
     return (
@@ -96,13 +96,8 @@ const projectItem = [
                     </div>
                 </div>
 
-             </div>
+             </div>            
              
-             <div className="project_container_line">
-                <h3>-----Projects by tutorial video.-----</h3>
-                <h4>I did it for practice CSS</h4>
-             </div>
-
              <div className="project_container">
                 <div className="project_item">            
                 <img src={Sign_Up_Form}/>
@@ -114,27 +109,7 @@ const projectItem = [
                     </div>
                 </div>
       
-                <div className="project_item">            
-                <img src={road}  />   
-                    <div className="project_description">
-                    <h5>{projectItem[4].name} </h5>
-                        <h5>skills: html, css, javascript</h5>
-                        <Button color='green' href={projectItem[4].github} target="_blank">github</Button>
-                        <Button color='green' href={projectItem[4].web_site} target="_blank">web site</Button>
-                    </div>
-                </div>
-
-                <div className="project_item">            
-                    <img src={cars}  /> 
-                    <div className="project_description">
-                    <h5>{projectItem[5].name} </h5>
-                        <h5>skills: html, css, javascript</h5>
-                        <Button color='green' href={projectItem[5].github} target="_blank">github</Button>
-                        <Button color='green' href={projectItem[5].web_site} target="_blank">web site</Button>
-                    </div>
-                </div>
-             </div>  
-             
+             </div> 
              
           
         </div>

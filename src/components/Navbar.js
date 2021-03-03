@@ -11,7 +11,7 @@ function Navbar() {
     return (
         <nav id="navbar">
             <div className="navbar_logo">    
-                <Icon  name='star' />
+                <Icon  name='star' className="navbar_icon"/>
                 <a href="#app_aboutme">IG Kim</a> 
             </div>
 
