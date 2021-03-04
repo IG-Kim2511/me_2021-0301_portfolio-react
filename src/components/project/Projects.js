@@ -1,6 +1,8 @@
 import React ,{useState} from 'react'
 import { Button } from 'semantic-ui-react'
 
+import projectItem from './Projects_data'
+
 import react_portfolio from '../../img/projects/p-portfolio_with_React,SCSS.jpg';
 import shop from '../../img/projects/p-react-shop.jpg';
 import javascript_portfolio from '../../img/projects/p-javascript-portfolio.jpg';
@@ -8,64 +10,31 @@ import Sign_Up_Form from '../../img/projects/p-Sign-In-Sign-Up-Form-HCJ.jpg';
 import cars from '../../img/projects/p-cars.jpg';
 import road from '../../img/projects/p-the road.jpg';
 
-
 // 🌈plan : map()
 
 function Projects() {
 
-const projectItem = [
-    {
-    id:0,
-    name:" portfolio with React, SCSS" ,
-     img:"react_portfolio",
-     skills: "React, SCSS",
-     github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
-     web_site: "https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/"  
-    },
-    {
-    id:1,
-    name:"shop" ,
-     img:'react_portfolio',
-     skills: "React",
-     github: "https://github.com/IG-Kim2511/z2021-0219_shop",
-     web_site: "https://ig-kim2511.github.io/z2021-0219_shop_build/"  
-    },
-    {
-    id:2,
-    name:"portfolio with javascript" ,
-     img:'react_portfolio',
-     skills: "html, css, javascript",
-     github: "https://github.com/IG-Kim2511/Portfolio-dream-2020-0901",
-     web_site: "https://ig-kim2511.github.io/Portfolio-dream-2020-0901/"  
-    },
-    {
-    id:3,
-    name:"Sign_Up_Form" ,
-     img:'react_portfolio',
-     skills: "html, css, javascript",
-     github: "https://github.com/IG-Kim2511/Sign-In-Sign-Up-Form-HCJ-2021-0209-P",
-     web_site: "https://ig-kim2511.github.io/Sign-In-Sign-Up-Form-HCJ-2021-0209-P/"  
-    },
- {/*    {id:4,
-    name:"road" ,
-     img:'react_portfolio',
-     skills: "html, css, javascript",
-     github: "https://github.com/IG-Kim2511/the-road-0808-p",
-     web_site: "https://ig-kim2511.github.io/the-road-0808-p/"  
-    },
-    {id:5,
-    name:"cars" ,
-     img:'react_portfolio',
-     skills: "html, css, javascript",
-     github: "https://github.com/IG-Kim2511/Cars-HCJ-2021-0206-P",
-     web_site: "https://ig-kim2511.github.io/Cars-HCJ-2021-0206-P/"  
-    }, */}
-]
+    const projects_img =[react_portfolio,shop]
 
     return (
         <div id="projects">
             <h1>Projects</h1>
+
             <div className="project_container ">
+                <div className="project_item">            
+                <img src={projects_img[0]}/> 
+                <div className="project_description">
+                    <h5>{projectItem[0].name}</h5>
+                    <h5>skills:{projectItem[0].skills}</h5>
+                    <Button color='green' href={projectItem[0].github} target="_blank" className="project_btn">github</Button>
+                    <Button color='green' href={projectItem[0].web_site} target="_blank">web site</Button>
+                </div>
+            </div>
+            
+            </div>
+
+           {/* // 🌈plan : map()
+             <div className="project_container ">
 
                 <div className="project_item">            
                     <img src={react_portfolio}  /> 
@@ -111,6 +80,7 @@ const projectItem = [
                 </div>
       
              </div> 
+            */} 
              
           
         </div>
