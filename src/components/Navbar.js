@@ -4,7 +4,7 @@ import { Icon } from 'semantic-ui-react'
 
 import '../css/style.scss';
 
-// 🍄plan : router
+// 🌈plan : router
 
 
 function Navbar() {
