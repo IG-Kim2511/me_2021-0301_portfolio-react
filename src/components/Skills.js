@@ -7,6 +7,21 @@ function Skills() {
     const [skill, setskill] = useState( [ 
         "html5", "css3", "js", "react","sass", "git" 
     ])
+
+    const skill_kim=[
+        {id:0,
+        icon:"css3"},
+        {id:1,
+        icon:"css3"},
+        {id:2,
+        icon:"js"},
+        {id:3,
+        icon:"react"},
+        {id:4,
+        icon:"sass"},
+        {id:5,
+        icon:"git"}   
+    ]
    
     return (
         <div id="skills">
@@ -36,6 +51,10 @@ function Skills() {
                     <Icon name='git' className="skill_icon"/>
                     <p>{skill[5]}</p>
                 </div>              
+            </div>
+
+            <div className="about_skills">
+                and jQuery, Bootstrap
             </div>
 
         </div>
