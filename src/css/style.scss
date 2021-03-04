@@ -138,17 +138,13 @@ $black-color: #000000;
 /* 🦄contact */
 #contact {
   padding: 3rem;
-}
-.contact_links {
-  a {
-    width: 80px;
-    height: 80px;
-
-    color: $main-color;
-    font-size: 40px;
-  }
 
   .icon {
+    width: 80px;
+    height: 80px;
+    color: $main-color;
+    font-size: 60px;  
+
     transition: all 0.3s;
 
     &:hover {
@@ -160,7 +156,7 @@ $black-color: #000000;
 /* @ 576px */
 @media (max-width: 576px) {
     html {
-      font-size: 55%;
+      font-size: 75%;
     }
     #skills {    
         .skill_icon {
@@ -168,7 +164,7 @@ $black-color: #000000;
             height: 40px;
             line-height: 40px;
             font-size: 25px;
-      }
+        }
     }
     
     .project_description{
@@ -177,6 +173,25 @@ $black-color: #000000;
           justify-content: space-evenly;     
        
       }
+      #contact {       
+        .icon {        
+          font-size: 40px;        
+        }
+      }  
+  }
+  
+@media (min-width: 1200px) {
+  html {
+    font-size: 130%;
+  }
+  body {
+    font-size: 130%;
+  }
+  #skills,
+  #language {
+      max-width: 1200px;      
+      margin: auto;
+    }
   }
 
   

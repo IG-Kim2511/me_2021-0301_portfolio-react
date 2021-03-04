@@ -10,6 +10,8 @@ const Contact = () => {
             <h3>Let's talk</h3>                    
             <h3>iikim2511@gmail.com</h3>
 
+            <br></br>
+
             <div className="contact_links">          
                 <a href="https://www.linkedin.com/in/ig-in-gyum-kim-17456219b/" target="_blank"> <Icon name='linkedin' className="icon"/></a>
                 <a color='green' href="https://github.com/IG-Kim2511" target="_blank"> <Icon name='github' className="icon"/>
