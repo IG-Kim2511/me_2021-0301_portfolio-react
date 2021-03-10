@@ -6,17 +6,25 @@ export default [
      skills: "React, SCSS",
      github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
      web_site: "https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/"  
-    },
-    {
-    id:1,
-    name:"shop" ,
-     img:'shop',
-     skills: "React",
-     github: "https://github.com/IG-Kim2511/z2021-0219_shop",
-     web_site: "https://ig-kim2511.github.io/z2021-0219_shop_build/"  
-    },
+    },  
     {
     id:2,
+    name:"breakingbad_card_from_api" ,
+     img:'breakingbad_card_from_api',
+     skills: "React",
+     github: "https://github.com/IG-Kim2511/c2021-0308_breakingbad_react_api",
+     web_site: "https://ig-kim2511.github.io/c2021-0308_breakingbad_react_api_build/"  
+    },
+    {
+        id:1,
+        name:"shop" ,
+         img:'shop',
+         skills: "React",
+         github: "https://github.com/IG-Kim2511/z2021-0219_shop",
+         web_site: "https://ig-kim2511.github.io/z2021-0219_shop_build/"  
+    },
+    {
+    id:3,
     name:"portfolio with javascript" ,
      img:'portfolio_javascript',
      skills: "html, css, javascript",
@@ -24,7 +32,7 @@ export default [
      web_site: "https://ig-kim2511.github.io/Portfolio-dream-2020-0901/"  
     },
     {
-    id:3,
+    id:4,
     name:"Sign_Up_Form" ,
      img:'Sign_Up_Form',
      skills: "html, css, javascript",

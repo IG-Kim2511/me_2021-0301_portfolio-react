@@ -1,9 +1,10 @@
 import React ,{useState} from 'react'
 import { Button } from 'semantic-ui-react'
 
-import projectItem from './Projects_data'
+import projectItem from './Projects_item'
 
 import portfolio_react from '../../img/projects/p-portfolio_with_React,SCSS.jpg';
+import breakingbad_card_from_api from '../../img/projects/c2021-0308_breakingbad_react_api.jpg';
 import shop from '../../img/projects/p-react-shop.jpg';
 import portfolio_javascript from '../../img/projects/p-javascript-portfolio.jpg';
 import Sign_Up_Form from '../../img/projects/p-Sign-In-Sign-Up-Form-HCJ.jpg';
@@ -14,7 +15,7 @@ import road from '../../img/projects/p-the road.jpg';
 
 function Projects() {
 
-    const projects_img =[portfolio_react,shop,portfolio_javascript, Sign_Up_Form]
+    const projects_img =[portfolio_react,breakingbad_card_from_api,shop,portfolio_javascript, Sign_Up_Form]  /* 8 */
 
     return (
         <div id="projects">
@@ -34,11 +35,14 @@ function Projects() {
      
             {
                 projects_img.map((a,i)=>{
-                    return   <div className="project_item">            
-                        <img src={projects_img[i]}/> 
+                    return   <div className="project_item">  
+                              
+                        <img src={projects_img[i]}/>                {/* 8 img : array on here*/}
+
                         <div className="project_description">
                             <h5>{projectItem[i].name}</h5>
                             <h5>skills:{projectItem[i].skills}</h5>
+
                             <Button color='green' href={projectItem[i].github} target="_blank" className="project_btn">github</Button>
                             <Button color='green' href={projectItem[i].web_site} target="_blank">web site</Button>
                     </div>
